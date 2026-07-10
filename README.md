@@ -75,9 +75,9 @@ The comparison matrix evaluates both models on:
   - The generation gap of 0.015 is generally acceptable which is very low.
   - So , we can say that no model is overfitting. 
 
--**Graph 3:**
+- **Graph 3:**
 > ![Accuracy Learning Curve](result_img/AccuracyLearningCurve.png)
--**From Accuracy Learning Graph:**
+- **From Accuracy Learning Graph:**
 - We can say that:
   -  The learning curve of training and validation for both models is staying close and improving per epoch.
   -  But due to high validation accuracy than training accuracy in model2, it is slightly moving towards underfitting.
