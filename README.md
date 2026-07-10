@@ -56,9 +56,9 @@ The comparison matrix evaluates both models on:
 - **Graph1:**
 > ![Training and Validation Accuracy](result_img/Training_and_Validation_Accuracy.png)aph
 - **1.From above Training and Validation Graph:**
-- We can differentiate our models in two category based on activation function.
-- model1 has high validation accuracy(0.956) as compared to model2(0.929) which plays a important factor in decision making.
-- model1 has also as high training accuracy(0.971) as compared to model2(0.925).
-- This graph shows how quickly each model learns and whether either one plateaus, oscillates, or diverges over time.
+- We can say that:
+  - model1 has high validation accuracy(0.956) as compared to model2(0.929) which plays a important factor in decision making.
+  - model1 has also as high training accuracy(0.971) as compared to model2(0.925).
+  - This graph shows how quickly each model learns and whether either one plateaus, oscillates, or diverges over time.
 > ![Learning Curves](result_img/AccuracyLearningCurve.png)
 
