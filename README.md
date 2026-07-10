@@ -77,7 +77,6 @@ The comparison matrix evaluates both models on:
 
 -**Graph 3:**
 > ![Accuracy Learning Curve](result_img/AccuracyLearningCurve.png)
-
 -**From Accuracy Learning Graph:**
 - We can say that:
   -  The learning curve of training and validation for both models is staying close and improving per epoch.
