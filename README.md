@@ -17,7 +17,7 @@ The [MNIST dataset](http://yann.lecun.com/exdb/mnist/) is loaded directly via `t
 - 10 classes representing digits 0–9
 
 ## Model Architectures:
-Below shows that both models share the same structure but differ in their hidden layer activation function:
+Below  abletshows that both models share the same structure but differ in their hidden layer activation function:
 | Layer | Model 1 | Model 2 |
 |---|---|---|
 | Input | 28x28 | 28x28 |
@@ -41,4 +41,4 @@ Below comparison matrix shows the parameters that are used to compare both model
 | Models| Training Accuracy | Validation Accuracy | Generation Gap | Total Parameters
 |---|---|---|---|---|
 | model1 | 0.971 | 0.956 | 0.015 | 55050 |
-
+| model2 | 0.925 | 0.929 | -0.004 | 55050 |
