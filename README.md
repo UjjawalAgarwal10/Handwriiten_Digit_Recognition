@@ -63,15 +63,23 @@ The comparison matrix evaluates both models on:
 
 - **Graph 2:**
 > ![Testing Accuracy and Generation Gap](result_img/Testing_Accuracy_and_Generation_Gap.png)
-- **1. For Testing Accuracy Graph:**
+- **1. From Testing Accuracy Graph:**
 - We can say that:
   - model1 has high testing accuracy(0.9558) as compared to model2(0.9253).
   - it means that model1 has high final performance on unseen data as compared to model2.
 
-- **2.For Generation Gap Graph:**
+- **2.From Generation Gap Graph:**
 - we can say that:
   - model1 has low and healthy generation gap(0.015) as compared to model2(-0.004) which means model2 is slightly underfitting.
   - That means model2 has high validation accuracy than a training accuracy.
   - The generation gap of 0.015 is generally acceptable which is very low.
-  - So , we can say that no model is overfitting.
+  - So , we can say that no model is overfitting. 
+
+-**Graph 3:**
+> ![Accuracy Learning Curve](result_img/AccuracyLearningCurve.png)
+
+-**From Accuracy Learning Graph:**
+- We can say that:
+  -  The learning curve of training and validation for both models is staying close and improving per epoch.
+  -  But due to high validation accuracy than training accuracy in model2, it is slightly moving towards underfitting.
 
