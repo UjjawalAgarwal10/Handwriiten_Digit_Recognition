@@ -42,10 +42,13 @@ The comparison matrix evaluates both models on:
 1. **Training Accuracy** — it defines accuracy on the training data split.
 2. **Validation Accuracy** — it defines accuracy on the held-out validation data split.
 3. **Generation Gap** (`Train Accuracy - Validation Accuracy`) — it can be used as an indicator of overfitting/underfitting.
-4. **Total Parameters** — it defines the complexity of both models
-5. **Test Accuracy** —  it defines the accuracy based on final evaluation on unseen test data
+4. **Total Parameters** — it defines the complexity of both models.
+5. **Test Accuracy** —  it defines the accuracy based on final evaluation on unseen test data.
 
 | Models| Training Accuracy | Validation Accuracy | Generation Gap | Total Parameters
 |---|---|---|---|---|
 | model1 | 0.971 | 0.956 | 0.015 | 55050 |
 | model2 | 0.925 | 0.929 | -0.004 | 55050 |
+
+# Visualization Graphs:
+
