@@ -89,3 +89,9 @@ The comparison matrix evaluates both models on:
   - We can say that:
     - The Diagonal elements of the confusion matrix shows the correct predictions made by best_model.
     - The Non-Diagonal elements of the confusion matrix shows the incorrect predictions made by best_model.
+
+- **Graph 5:** 
+  - This graph represents some correct predictions made by the best_model(model1).
+> ![Some Correct Predictions](result_img/SomeCorrectPredictions.png)
+
+ 
