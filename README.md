@@ -26,12 +26,12 @@ Below shows that both models share the same structure but differ in their hidden
 | Dense (Hidden 2) | 64 units, **ReLU**, L2 regularization | 64 units, **Sigmoid**, L2 regularization |
 | Dense (Output) | 10 units, Softmax | 10 units, Softmax |
 
-**Compilation settings (both models):**
+## Compilation settings (both models):
 - Optimizer: `adam`
 - Loss: `sparse_categorical_crossentropy`
 - Metric: `accuracy`
 
-**Training settings:**
+## Training settings:
 - Model 1: 20 epochs, batch size 32, 20% validation split
 - Model 2: 18 epochs, batch size 32, 20% validation split
 - Random seed fixed at `42` for reproducibility
