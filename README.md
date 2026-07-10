@@ -18,6 +18,7 @@ The [MNIST dataset](http://yann.lecun.com/exdb/mnist/) is loaded directly via `t
 
 ## Model Architectures:
 Below  abletshows that both models share the same structure but differ in their hidden layer activation function:
+-model1 has relu as aa activation function while model2 has sigmoid as a activation function.
 | Layer | Model 1 | Model 2 |
 |---|---|---|
 | Input | 28x28 | 28x28 |
@@ -56,6 +57,8 @@ The comparison matrix evaluates both models on:
 > ![Training and Validation Accuracy](result_img/Training_and_Validation_Accuracy.png)aph
 - **1.From above Training and Validation Graph:**
 - We can differentiate our models in two category based on activation function.
-- 
+- model1 has high validation accuracy(0.956) as compared to model2(0.929) which plays a important factor in decision making.
+- model1 has also as high training accuracy(0.971) as compared to model2(0.925).
+- This graph shows how quickly each model learns and whether either one plateaus, oscillates, or diverges over time.
 > ![Learning Curves](result_img/AccuracyLearningCurve.png)
 
