@@ -35,3 +35,10 @@ Below shows that both models share the same structure but differ in their hidden
 - Model 1: 20 epochs, batch size 32, 20% validation split
 - Model 2: 18 epochs, batch size 32, 20% validation split
 - Random seed fixed at `42` for reproducibility
+
+## Model Comparison
+Below comparison matrix shows the parameters that are used to compare both models
+| Models| Training Accuracy | Validation Accuracy | Generation Gap | Total Parameters
+|---|---|---|---|---|
+| model1 | 0.971 | 0.956 | 0.015 | 55050 |
+
