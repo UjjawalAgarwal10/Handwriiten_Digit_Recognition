@@ -106,3 +106,14 @@ The comparison matrix evaluates both models on:
 - The **generation gap** metric is a simple but effective way to diagnose overfitting/underfitting alongside standard accuracy metrics.
 - ReLU activation outperformed Sigmoid activation for this architecture on the MNIST dataset, in both accuracy and generalization.
  
+## Future Scope
+- Potential improvements and extensions for this project:
+  - Convolutional Neural Networks (CNNs): Replace the dense architecture with a CNN (Conv2D + MaxPooling layers) to better capture spatial patterns in digit images and significantly boost accuracy over fully-connected layers.
+  - Systematically tune learning rate, batch size, number/size of hidden layers, and regularization strength using tools like Keras Tuner or Optuna.
+  - Add dropout layers and batch normalization to further reduce overfitting and stabilize training.
+  - Apply rotation, shifting, zooming, and noise to training images to make the model more robust to real-world handwriting variations.
+  - Package the best model into a simple web app (e.g., Flask/Streamlit with a drawable canvas) so users can draw a digit and get a live prediction.
+
+## License
+
+This project is open source and available for educational and personal use. Feel free to fork and adapt it.
