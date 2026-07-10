@@ -17,7 +17,7 @@ The [MNIST dataset](http://yann.lecun.com/exdb/mnist/) is loaded directly via `t
 - 10 classes representing digits 0–9
 
 ## Model Architectures:
--Below shows that both models share the same structure but differ in their hidden layer activation function:
+- Below shows that both models share the same structure but differ in their hidden layer activation function:
 | Layer | Model 1 | Model 2 |
 |---|---|---|
 | Input | 28x28 | 28x28 |
