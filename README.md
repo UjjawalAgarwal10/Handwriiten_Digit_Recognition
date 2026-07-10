@@ -53,12 +53,14 @@ The comparison matrix evaluates both models on:
 
 # Visualization Graphs:
 - Below graphs showcasting the train, validation and testing accuracy per epoch of both models and a confusion matrix for best model(model1).
-- **Graph1:**
-> ![Training and Validation Accuracy](result_img/Training_and_Validation_Accuracy.png)aph
+- **Graph 1:**
+> ![Training and Validation Accuracy](result_img/Training_and_Validation_Accuracy.png)
 - **1.From above Training and Validation Graph:**
 - We can say that:
   - model1 has high validation accuracy(0.956) as compared to model2(0.929) which plays a important factor in decision making.
   - model1 has also as high training accuracy(0.971) as compared to model2(0.925).
   - This graph shows how quickly each model learns and whether either one plateaus, oscillates, or diverges over time.
-> ![Learning Curves](result_img/AccuracyLearningCurve.png)
+
+-**Graph 2:**
+> ![Testing Accuracy and Generation Gap](result_img/Testing_Accuracy_and_Generation_Gap.png)
 
