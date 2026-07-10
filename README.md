@@ -51,5 +51,8 @@ The comparison matrix evaluates both models on:
 | model2 | 0.925 | 0.929 | -0.004 | 55050 |
 
 # Visualization Graphs:
+- Below graphs showcasting the train, validation and testing accuracy per epoch of both models and a confusion matrix for best model(model1).
+**Graph1:**
+> ![Training and Validation Accuracy](result_img/Training_and_Validation_Accuracy.png)
 > ![Learning Curves](result_img/AccuracyLearningCurve.png)
 
