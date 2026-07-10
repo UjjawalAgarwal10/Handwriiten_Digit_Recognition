@@ -51,5 +51,5 @@ The comparison matrix evaluates both models on:
 | model2 | 0.925 | 0.929 | -0.004 | 55050 |
 
 # Visualization Graphs:
-!(result_img/Training and Validation Accuracy.png)
+> ![Training and Validation Accuracy](./result_img/Training and Validation Accuracy.png)
 
