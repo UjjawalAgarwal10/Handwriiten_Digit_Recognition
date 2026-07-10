@@ -17,7 +17,7 @@ The [MNIST dataset](http://yann.lecun.com/exdb/mnist/) is loaded directly via `t
 - 10 classes representing digits 0–9
 
 ## Model Architectures:
-Below  abletshows that both models share the same structure but differ in their hidden layer activation function:
+Below table shows that both models share the same structure but differ in their hidden layer activation function:
 -model1 has relu as aa activation function while model2 has sigmoid as a activation function.
 | Layer | Model 1 | Model 2 |
 |---|---|---|
