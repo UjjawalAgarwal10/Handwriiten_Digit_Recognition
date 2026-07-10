@@ -82,3 +82,10 @@ The comparison matrix evaluates both models on:
   -  The learning curve of training and validation for both models is staying close and improving per epoch.
   -  But due to high validation accuracy than training accuracy in model2, it is slightly moving towards underfitting.
 
+## By analyzing,all the above graph and comparison matrix I can say that the best model is model1.
+-**Graph 4: Confusion_Matrix(best_model: model1)**
+> ![Confusion_Matrix](result_img/Confusion_Matrix.png)
+- **From Confusion_Matrix Graph:**
+- We can say that:
+- The Diagonal elements of the confusion matrix shows the correct predictions made by best_model.
+- The Non-Diagonal elements of the confusion matrix shows the incorrect predictions made by best_model.
