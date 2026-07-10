@@ -100,5 +100,9 @@ The comparison matrix evaluates both models on:
 ├── HandwrittenDigitRecognition.ipynb   # Main notebook: data loading, model building, training, evaluation
 └── README.md                           # Project documentation
 ```
+## Key Takeaways
 
+- L2 regularization was applied to both models to help prevent overfitting.
+- The **generation gap** metric is a simple but effective way to diagnose overfitting/underfitting alongside standard accuracy metrics.
+- ReLU activation outperformed Sigmoid activation for this architecture on the MNIST dataset, in both accuracy and generalization.
  
