@@ -94,4 +94,11 @@ The comparison matrix evaluates both models on:
   - This graph represents some correct predictions made by the best_model(model1).
 > ![Some Correct Predictions](result_img/SomeCorrectPredictions.png)
 
+## Project Structure
+```
+.
+├── HandwrittenDigitRecognition.ipynb   # Main notebook: data loading, model building, training, evaluation
+└── README.md                           # Project documentation
+```
+
  
