@@ -53,6 +53,9 @@ The comparison matrix evaluates both models on:
 # Visualization Graphs:
 - Below graphs showcasting the train, validation and testing accuracy per epoch of both models and a confusion matrix for best model(model1).
 - **Graph1:**
-> ![Training and Validation Accuracy](result_img/Training_and_Validation_Accuracy.png)
+> ![Training and Validation Accuracy](result_img/Training_and_Validation_Accuracy.png)aph
+- **1.From above Training and Validation Graph:**
+- We can differentiate our models in two category based on activation function.
+- 
 > ![Learning Curves](result_img/AccuracyLearningCurve.png)
 
